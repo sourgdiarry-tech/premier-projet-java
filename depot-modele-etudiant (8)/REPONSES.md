@@ -1,5 +1,4 @@
-# Réponses — Évaluation POO : héritage, polymorphisme, transtypage
-
+# Réponses — Évaluation POO : héritage, polymorphisme, transtypag
 - Matricule :768058632
 - Nom et prénom :Diarry Soung
 - N (deux derniers chiffres du matricule) :32
@@ -11,9 +10,25 @@
 Écrivez ci-dessous, entre les deux lignes de trois accents graves, **une ligne par ligne affichée**, dans l'ordre.
 Ne modifiez pas les lignes de trois accents graves.
 
-```text
+`A vehicule
+F null 0
+E moto 132
+Moto2
+vehicule
+moto
+C3
+C2
+D-vehicule
+A vehicule
+F null 0
+E moto 132
+true false
+true
+A vehicule
+B vehicule
+:3
+:'''
 
-```
 
 ## Exercice 1 — A. Justifications
 
@@ -29,11 +44,11 @@ Colonne « Compile ? » : `oui` ou `non`. Colonne « Exécution » : `OK`, `exce
 
 | n° | Compile ? | Exécution | Justification |
 |----|-----------|-----------|---------------|
-| 1  |  1        |           |               |
-| 2  |  oui      |           |               |
-| 3  |           |           |               |
-| 4  |           |           |               |
-| 5  |           |           |               |
-| 6  |           |           |               |
-| 7  |           |           |               |
-| 8  |           |           |               |
+| 1  |  oui       |  ok         |    c'est un Moto est un vehicule,m           |
+| 2  |  non     |    -       |a est declarer vehicule il faux un cast pour le mettre dans moto               |
+| 3  |oui       |    ok       a contient vraiment un moto               |
+| 4  | oui       exceptionClassException           |b contient vraiment un camion pas Moto               |
+| 5  |  non     |    -       | c est un Moto on ne peut pas le transformer en camion ce sont2 type difference              |
+| 6  |   oui    | exceptionClassException          | b contient un camion pas un string              |
+| 7  |  non         |   -        |   b est declarer objet n'a pas de methode type()            |
+| 8  | oui         |   ok        |   b contient un camion qui est un vehicul et type()donne "vehicule            |
